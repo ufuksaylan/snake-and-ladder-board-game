@@ -33,8 +33,27 @@ body {
   align-items: center;
 }
 
+.board {
+  margin-top: 40px;
+  border: solid black 2px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr)
+}
 
+.even {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(247, 57, 57);
+  border: solid black 1px;
 
+}
+.odd { 
+  height: 70px;
+  width: 100%;
+  background-color: rgb(109, 109, 250);
+  border: solid black 1px;
+
+}
 
 
 
