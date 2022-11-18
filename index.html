@@ -11,8 +11,66 @@
   <div class="container">
     <div class="left-side">
       <div class="buttons">
-        <button class="button-18">Start custom game</button>
+        <button class="button-18" id="customGame">Start custom game</button>
       </div>
+      <div class="nrangeContainer">
+        <div class="value">n = 20</div>
+        <input type="range" min="20" max="80" step="5" value="20">
+      </div>
+      <div class="numberOfPlayersContainer">
+
+        <label for="numberOfPlayers">Number of Players (2-3):</label>
+
+        <input type="number" id="numberOfPlayers" name="numberOfPlayers"
+       min="2" max="3"value="2">
+
+      </div>
+
+      <div class="buttons">
+        <button class="button-18" id="edit">Edit the game</button>
+      </div>
+
+      <div class="addingSnakeContainer">
+
+        <div class="Head">
+          <label for="numberHead">Head</label>
+
+          <input type="number" id="numberHead" name="numberHead"
+         min="2" max="79"value="2">
+        </div>
+        <div class="tail">
+          <label for="numberTail">Tail</label>
+
+          <input type="number" id="numberTail" name="numberTail"
+         min="2" max="79"value="2">
+        </div>
+
+        <div class="buttons">
+          <button class="button-18" id="addSnake">add snake</button>
+        </div>
+      </div>
+
+
+      <div class="addingLadderContainer">
+
+        <div class="tail">
+          <label for="Beginning">Beginning</label>
+
+          <input type="number" id="Beginning" name="Beginning"
+         min="2" max="79"value="2">
+        </div>
+        <div class="tail">
+          <label for="end">End</label>
+
+          <input type="number" id="end" name="end"
+         min="2" max="79"value="2">
+        </div>
+
+        <div class="buttons">
+          <button class="button-18" id="addLadder">add ladder</button>
+        </div>
+      </div>
+
     </div>
     <div class="middle">
       <div class="buttons">

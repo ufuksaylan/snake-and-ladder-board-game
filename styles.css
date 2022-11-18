@@ -76,8 +76,26 @@ img {
   height: 75px;
 }
 
+.nrangeContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
 
+.numberOfPlayersContainer{
+  margin-bottom: 10rem;
+}
+.addingSnakeContainer {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
 
+.addingLadderContainer {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
 
 
 
@@ -127,8 +145,4 @@ img {
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
 }
-
-
-
-
 
