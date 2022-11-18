@@ -59,7 +59,22 @@ body {
   align-items: center;
 }
 
+.right {
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
+.dice-container {
+  display: flex;
+  gap: 10px;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+}
 
 
 
@@ -112,3 +127,8 @@ body {
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
 }
+
+
+
+
+
