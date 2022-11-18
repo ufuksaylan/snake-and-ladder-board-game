@@ -45,14 +45,18 @@ body {
   width: 100%;
   background-color: rgb(247, 57, 57);
   border: solid black 1px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .odd { 
   height: 70px;
   width: 100%;
   background-color: rgb(109, 109, 250);
   border: solid black 1px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
